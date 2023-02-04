@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>InTune</title>
+        <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+
+        <link href="css/styles.css" rel="stylesheet" />
+        <script defer src="js/app.js"></script>
+    </head>
+
+    <body>
+
+        <section class="home column">
+            <h1>In<span class="highlight">Tune</span></h1>
+
+            <form class="controls">
+                <img src="images/happy.png">
+                <select name="mood" id="mood">
+                    <option value="" disabled selected>Mood</option>
+                    <option value="angry">Angry</option>
+                    <option value="happy">Happy</option>
+                    <option value="sad">Sad</option>
+                </select>
+
+                <img src="images/activity.png">
+                <select name="activity" id="activity">
+                    <option value="" disabled selected>Activity</option>
+                    <option value="dancing">Dancing</option>
+                    <option value="exercising">Exercising</option>
+                    <option value="relaxing">Relaxing</option>
+                    <option value="studying">Studying</option>
+                    <option value="working">Working</option>
+                </select>
+            </form>
+
+            <section class="results-container">
+                <!-- Mood Section -->
+                <section>
+                    <section class="section-header">
+                        <h2 id="mood-header">In<span class="highlight" id="mood-span">Mood</span></h2>
+                        <img id="mood-img" src="images/happy.png">
+                    </section>
+
+                    <div class="divider"></div>
+                    <p class="info">Music based on your current mood.</p>
+
+                    <section class="results" id="mood-result">
+                        <p id="mood-prompt" class="prompt">Please select a mood from the menu above.</p>
+                    </section>
+                </section>
+
+                <!-- Activity Section -->
+                <section>
+                    <section class="section-header">
+                        <h2 id="activity-header">In<span id="activity-span" class="highlight">Moment</span></h2>
+                        <img id="activity-img" src="images/activity.png">
+                    </section>
+
+                    <div class="divider"></div>
+                    <p class="info">Music based on your current activity.</p>
+
+                    <section class="results" id="activity-result">
+                        <p id="activity-prompt" class="prompt">Please select an activity from the menu above.</p>
+                    </section>
+                </section>
+
+                <!-- Time Section -->
+                <section>
+                    <section class="section-header">
+                        <h2 id="time-header">In<span id="time-span" class="highlight">Time</span></h2>
+                        <img id="time-img" src="images/moon.png">
+                    </section>
+
+                    <div class="divider"></div>
+                    <p class="info">Music based on the current time of day.</p>
+
+                    <section class="results" id="time-result"></section>
+                </section>
+
+                <!-- Weather Section -->
+                <section>
+                    <section class="section-header">
+                        <h2 id="weather-header">In<span id="weather-span" class="highlight">Season</span></h2>
+                        <img id="weather-img" src="images/rain.png">
+                    </section>
+
+                    <div class="divider"></div>
+                    <p class="info">Music based on the current weather.</p>
+
+                    <section class="results" id="weather-result"></section>
+                </section>
+            </section>
+
+            <a href="settings.html" class="icon-btn"><img src="images/gear.png"></a>
+        </section>
+
+        <img class="desktop-img desktop-decal-2" src="images/music-note-2.png" srcset="images/music-note-2.svg"
+            alt="A music note.">
+        <img class="desktop-img desktop-decal-1" src="images/music-note-1.png" srcset="images/music-note-1.svg"
+            alt="A music note.">
+
+        <img class="mobile-img mobile-decal-2" src="images/music-note-2-mobile.png"
+            srcset="images/music-note-2-mobile.svg" alt="A music note.">
+        <img class="mobile-img mobile-decal-1" src="images/music-note-1-mobile.png"
+            srcset="images/music-note-1-mobile.svg" alt="A music note.">
+
+    </body>
+
+</html>
