@@ -1,6 +1,6 @@
 <!-- Welcome Section -->
 # What Is InTune? 🤔
-InTune is a music selection tool. This web app uses a mix of APIs to help find music based on mood, activity, time of day, or weather. To learn more about my project, or to try it out yourself. Feel free to visit the project page on my portfolio site. This documentation will cover the technical details about the project.
+InTune is a music selection tool. This web app uses a mix of APIs to help find music based on mood, activity, time of day, or weather. To learn more about my project, or to try it out yourself. Feel free to visit the project page [project page](https://valdetsemovski.com/intune-project-page.html "Visit https://valdetsemovski.com/intune-project-page.html") on my portfolio site. This documentation will cover the technical details about the project.
 
 <br>
 
